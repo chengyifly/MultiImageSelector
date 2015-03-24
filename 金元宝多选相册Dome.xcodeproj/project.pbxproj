@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E0E65A1AAD967200D9712E /* JYBMultiImageSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E0E6591AAD967200D9712E /* JYBMultiImageSelector.framework */; };
+		B3FC7D7F1AAD6C4B008AF956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC7D7E1AAD6C4B008AF956 /* main.m */; };
+		B3FC7D821AAD6C4B008AF956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC7D811AAD6C4B008AF956 /* AppDelegate.m */; };
+		B3FC7D851AAD6C4B008AF956 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC7D841AAD6C4B008AF956 /* ViewController.m */; };
+		B3FC7D881AAD6C4B008AF956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7D861AAD6C4B008AF956 /* Main.storyboard */; };
+		B3FC7D8D1AAD6C4B008AF956 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7D8B1AAD6C4B008AF956 /* LaunchScreen.xib */; };
+		B3FC7D991AAD6C4B008AF956 /* _______DomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC7D981AAD6C4B008AF956 /* _______DomeTests.m */; };
+		B3FC7E671AAD8E41008AF956 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E661AAD8E41008AF956 /* Images.xcassets */; };
+		B3FC7E731AAD92E2008AF956 /* ELCAssetCollectionPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E6D1AAD92E2008AF956 /* ELCAssetCollectionPicker.xib */; };
+		B3FC7E741AAD92E2008AF956 /* goods_add_plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E6E1AAD92E2008AF956 /* goods_add_plus@2x.png */; };
+		B3FC7E751AAD92E2008AF956 /* goods_add_plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E6F1AAD92E2008AF956 /* goods_add_plus@3x.png */; };
+		B3FC7E761AAD92E2008AF956 /* loadingIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E701AAD92E2008AF956 /* loadingIndicator@2x.png */; };
+		B3FC7E771AAD92E2008AF956 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E711AAD92E2008AF956 /* Overlay.png */; };
+		B3FC7E781AAD92E2008AF956 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FC7E721AAD92E2008AF956 /* Overlay@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FC7D931AAD6C4B008AF956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FC7D711AAD6C4A008AF956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FC7D781AAD6C4A008AF956;
+			remoteInfo = "金元宝多选相册Dome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3E0E6591AAD967200D9712E /* JYBMultiImageSelector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JYBMultiImageSelector.framework; sourceTree = "<group>"; };
+		B3FC7D791AAD6C4A008AF956 /* 金元宝多选相册Dome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金元宝多选相册Dome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FC7D7D1AAD6C4B008AF956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FC7D7E1AAD6C4B008AF956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3FC7D801AAD6C4B008AF956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3FC7D811AAD6C4B008AF956 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3FC7D831AAD6C4B008AF956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3FC7D841AAD6C4B008AF956 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3FC7D871AAD6C4B008AF956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FC7D8C1AAD6C4B008AF956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B3FC7D921AAD6C4B008AF956 /* 金元宝多选相册DomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "金元宝多选相册DomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FC7D971AAD6C4B008AF956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FC7D981AAD6C4B008AF956 /* _______DomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______DomeTests.m"; sourceTree = "<group>"; };
+		B3FC7E661AAD8E41008AF956 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3FC7E6D1AAD92E2008AF956 /* ELCAssetCollectionPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetCollectionPicker.xib; sourceTree = "<group>"; };
+		B3FC7E6E1AAD92E2008AF956 /* goods_add_plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goods_add_plus@2x.png"; sourceTree = "<group>"; };
+		B3FC7E6F1AAD92E2008AF956 /* goods_add_plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goods_add_plus@3x.png"; sourceTree = "<group>"; };
+		B3FC7E701AAD92E2008AF956 /* loadingIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loadingIndicator@2x.png"; sourceTree = "<group>"; };
+		B3FC7E711AAD92E2008AF956 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		B3FC7E721AAD92E2008AF956 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		B3FC7E791AAD94E6008AF956 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B3FC7E7A1AAD94E6008AF956 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FC7D761AAD6C4A008AF956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E0E65A1AAD967200D9712E /* JYBMultiImageSelector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FC7D8F1AAD6C4B008AF956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3FC7D701AAD6C4A008AF956 = {
+			isa = PBXGroup;
+			children = (
+				B3FC7D7B1AAD6C4A008AF956 /* 金元宝多选相册Dome */,
+				B3FC7D951AAD6C4B008AF956 /* 金元宝多选相册DomeTests */,
+				B3FC7D7A1AAD6C4A008AF956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FC7D7A1AAD6C4A008AF956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC7D791AAD6C4A008AF956 /* 金元宝多选相册Dome.app */,
+				B3FC7D921AAD6C4B008AF956 /* 金元宝多选相册DomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FC7D7B1AAD6C4A008AF956 /* 金元宝多选相册Dome */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC7E6C1AAD92E2008AF956 /* Resource */,
+				B3FC7D801AAD6C4B008AF956 /* AppDelegate.h */,
+				B3FC7D811AAD6C4B008AF956 /* AppDelegate.m */,
+				B3FC7D861AAD6C4B008AF956 /* Main.storyboard */,
+				B3FC7D831AAD6C4B008AF956 /* ViewController.h */,
+				B3FC7D841AAD6C4B008AF956 /* ViewController.m */,
+				B3FC7E661AAD8E41008AF956 /* Images.xcassets */,
+				B3FC7D8B1AAD6C4B008AF956 /* LaunchScreen.xib */,
+				B3FC7D7C1AAD6C4B008AF956 /* Supporting Files */,
+			);
+			path = "金元宝多选相册Dome";
+			sourceTree = "<group>";
+		};
+		B3FC7D7C1AAD6C4B008AF956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC7D7D1AAD6C4B008AF956 /* Info.plist */,
+				B3FC7D7E1AAD6C4B008AF956 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3FC7D951AAD6C4B008AF956 /* 金元宝多选相册DomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC7D981AAD6C4B008AF956 /* _______DomeTests.m */,
+				B3FC7D961AAD6C4B008AF956 /* Supporting Files */,
+			);
+			path = "金元宝多选相册DomeTests";
+			sourceTree = "<group>";
+		};
+		B3FC7D961AAD6C4B008AF956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC7D971AAD6C4B008AF956 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3FC7E6C1AAD92E2008AF956 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B3E0E6591AAD967200D9712E /* JYBMultiImageSelector.framework */,
+				B3FC7E6D1AAD92E2008AF956 /* ELCAssetCollectionPicker.xib */,
+				B3FC7E6E1AAD92E2008AF956 /* goods_add_plus@2x.png */,
+				B3FC7E6F1AAD92E2008AF956 /* goods_add_plus@3x.png */,
+				B3FC7E701AAD92E2008AF956 /* loadingIndicator@2x.png */,
+				B3FC7E711AAD92E2008AF956 /* Overlay.png */,
+				B3FC7E721AAD92E2008AF956 /* Overlay@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FC7D781AAD6C4A008AF956 /* 金元宝多选相册Dome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FC7D9C1AAD6C4B008AF956 /* Build configuration list for PBXNativeTarget "金元宝多选相册Dome" */;
+			buildPhases = (
+				B3FC7D751AAD6C4A008AF956 /* Sources */,
+				B3FC7D761AAD6C4A008AF956 /* Frameworks */,
+				B3FC7D771AAD6C4A008AF956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "金元宝多选相册Dome";
+			productName = "金元宝多选相册Dome";
+			productReference = B3FC7D791AAD6C4A008AF956 /* 金元宝多选相册Dome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3FC7D911AAD6C4B008AF956 /* 金元宝多选相册DomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FC7D9F1AAD6C4B008AF956 /* Build configuration list for PBXNativeTarget "金元宝多选相册DomeTests" */;
+			buildPhases = (
+				B3FC7D8E1AAD6C4B008AF956 /* Sources */,
+				B3FC7D8F1AAD6C4B008AF956 /* Frameworks */,
+				B3FC7D901AAD6C4B008AF956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FC7D941AAD6C4B008AF956 /* PBXTargetDependency */,
+			);
+			name = "金元宝多选相册DomeTests";
+			productName = "金元宝多选相册DomeTests";
+			productReference = B3FC7D921AAD6C4B008AF956 /* 金元宝多选相册DomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FC7D711AAD6C4A008AF956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JYB;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "易达正丰";
+				TargetAttributes = {
+					B3FC7D781AAD6C4A008AF956 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B3FC7D911AAD6C4B008AF956 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B3FC7D781AAD6C4A008AF956;
+					};
+				};
+			};
+			buildConfigurationList = B3FC7D741AAD6C4A008AF956 /* Build configuration list for PBXProject "金元宝多选相册Dome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FC7D701AAD6C4A008AF956;
+			productRefGroup = B3FC7D7A1AAD6C4A008AF956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FC7D781AAD6C4A008AF956 /* 金元宝多选相册Dome */,
+				B3FC7D911AAD6C4B008AF956 /* 金元宝多选相册DomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FC7D771AAD6C4A008AF956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC7E771AAD92E2008AF956 /* Overlay.png in Resources */,
+				B3FC7E761AAD92E2008AF956 /* loadingIndicator@2x.png in Resources */,
+				B3FC7E781AAD92E2008AF956 /* Overlay@2x.png in Resources */,
+				B3FC7E671AAD8E41008AF956 /* Images.xcassets in Resources */,
+				B3FC7D881AAD6C4B008AF956 /* Main.storyboard in Resources */,
+				B3FC7D8D1AAD6C4B008AF956 /* LaunchScreen.xib in Resources */,
+				B3FC7E741AAD92E2008AF956 /* goods_add_plus@2x.png in Resources */,
+				B3FC7E751AAD92E2008AF956 /* goods_add_plus@3x.png in Resources */,
+				B3FC7E731AAD92E2008AF956 /* ELCAssetCollectionPicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FC7D901AAD6C4B008AF956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FC7D751AAD6C4A008AF956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC7D851AAD6C4B008AF956 /* ViewController.m in Sources */,
+				B3FC7D821AAD6C4B008AF956 /* AppDelegate.m in Sources */,
+				B3FC7D7F1AAD6C4B008AF956 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FC7D8E1AAD6C4B008AF956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC7D991AAD6C4B008AF956 /* _______DomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3FC7D941AAD6C4B008AF956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FC7D781AAD6C4A008AF956 /* 金元宝多选相册Dome */;
+			targetProxy = B3FC7D931AAD6C4B008AF956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3FC7D861AAD6C4B008AF956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FC7D871AAD6C4B008AF956 /* Base */,
+				B3FC7E791AAD94E6008AF956 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FC7D8B1AAD6C4B008AF956 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FC7D8C1AAD6C4B008AF956 /* Base */,
+				B3FC7E7A1AAD94E6008AF956 /* zh-Hans */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FC7D9A1AAD6C4B008AF956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3FC7D9B1AAD6C4B008AF956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FC7D9D1AAD6C4B008AF956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/金元宝多选相册Dome",
+					"$(PROJECT_DIR)/金元宝多选相册Dome/JYBMultiImageSelector",
+					"$(PROJECT_DIR)/金元宝多选相册Dome/Resource",
+				);
+				INFOPLIST_FILE = "金元宝多选相册Dome/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/金元宝多选相册Dome",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3FC7D9E1AAD6C4B008AF956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/金元宝多选相册Dome",
+					"$(PROJECT_DIR)/金元宝多选相册Dome/JYBMultiImageSelector",
+					"$(PROJECT_DIR)/金元宝多选相册Dome/Resource",
+				);
+				INFOPLIST_FILE = "金元宝多选相册Dome/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/金元宝多选相册Dome",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3FC7DA01AAD6C4B008AF956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "金元宝多选相册DomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/金元宝多选相册Dome.app/金元宝多选相册Dome";
+			};
+			name = Debug;
+		};
+		B3FC7DA11AAD6C4B008AF956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "金元宝多选相册DomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/金元宝多选相册Dome.app/金元宝多选相册Dome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FC7D741AAD6C4A008AF956 /* Build configuration list for PBXProject "金元宝多选相册Dome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FC7D9A1AAD6C4B008AF956 /* Debug */,
+				B3FC7D9B1AAD6C4B008AF956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FC7D9C1AAD6C4B008AF956 /* Build configuration list for PBXNativeTarget "金元宝多选相册Dome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FC7D9D1AAD6C4B008AF956 /* Debug */,
+				B3FC7D9E1AAD6C4B008AF956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FC7D9F1AAD6C4B008AF956 /* Build configuration list for PBXNativeTarget "金元宝多选相册DomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FC7DA01AAD6C4B008AF956 /* Debug */,
+				B3FC7DA11AAD6C4B008AF956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3FC7D711AAD6C4A008AF956 /* Project object */;
+}
