@@ -5,5 +5,8 @@
 涉及到部分隐私问题，以后我整理下再开源，请大家谅解。
 使用到了开源的ELCImagePicker
 
+![image](https://github.com/chengyifly/MultiImageSelector/raw/master/screenshots/screenshots1.gif)
+![image](https://github.com/chengyifly/MultiImageSelector/raw/master/screenshots/screenshots2.gif)
+
 
 Copyright by Cyx
