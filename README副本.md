@@ -22,7 +22,7 @@ pod "MultiImageSelector"
 
 ## Author
 
-CYFly, chengyixiang@sogou-inc.com
+CYFly, chengyifly@gmail.com
 
 ## License
 
