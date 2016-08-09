@@ -14,7 +14,6 @@
 		98E3E75C40173A62F38301DDD7BAF7CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9AF429D850AB9D200E401F6477FBCBB3 /* Pods-MultiImageSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D469356DBBCD8EF6A9788139C6769AB6 /* Pods-MultiImageSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D215C6514C5E9A47C2AE618151843E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		BE34A6EB1528A49E0D6C5FE75E13ED76 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D5681AE19502E466D255F5D0A2F89A /* ReplaceMe.m */; };
 		D0C1B55E39AF37DF9462B1BFA695842B /* Pods-MultiImageSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C6D6E91B45C00318487BF8B2A97385 /* Pods-MultiImageSelector_Example-dummy.m */; };
 		EC085A4DC3656F17DEFC635E0760FEF6 /* Pods-MultiImageSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9AB0BE71AB0DF428938F3B53597830 /* Pods-MultiImageSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -47,7 +46,6 @@
 		B96A2FD2A78513E240817C0471DF0521 /* Pods-MultiImageSelector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiImageSelector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD70317D29EBEF383286B914EC1EF682 /* Pods-MultiImageSelector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiImageSelector_Example-resources.sh"; sourceTree = "<group>"; };
 		C30190F5957ACFA37D846F5FBBA97593 /* MultiImageSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MultiImageSelector.modulemap; sourceTree = "<group>"; };
-		C8D5681AE19502E466D255F5D0A2F89A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C994E53DC6D51814532A9ACBB84EE707 /* MultiImageSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiImageSelector-prefix.pch"; sourceTree = "<group>"; };
 		C9D568362D4981B1410E17E540F4CCAC /* Pods-MultiImageSelector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiImageSelector_Tests-resources.sh"; sourceTree = "<group>"; };
 		CE9AB0BE71AB0DF428938F3B53597830 /* Pods-MultiImageSelector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiImageSelector_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -199,7 +197,6 @@
 		C4C15FDBAF08CE4C59AE150B441DECA8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C8D5681AE19502E466D255F5D0A2F89A /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,7 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F03ECE4E92353F9927C01A2A70BF12C /* MultiImageSelector-dummy.m in Sources */,
-				BE34A6EB1528A49E0D6C5FE75E13ED76 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

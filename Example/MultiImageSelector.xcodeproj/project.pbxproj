@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DE2E0DC1D59BD80008A8973 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0B51D59BD80008A8973 /* ELCAlbumPickerController.m */; };
+		5DE2E0DD1D59BD80008A8973 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0B71D59BD80008A8973 /* ELCAsset.m */; };
+		5DE2E0DE1D59BD80008A8973 /* ELCAssetCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0B91D59BD80008A8973 /* ELCAssetCollectionCell.m */; };
+		5DE2E0DF1D59BD80008A8973 /* ELCAssetCollectionPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0BB1D59BD80008A8973 /* ELCAssetCollectionPicker.m */; };
+		5DE2E0E01D59BD80008A8973 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0BE1D59BD80008A8973 /* ELCImagePickerController.m */; };
+		5DE2E0E11D59BD80008A8973 /* ELCAssetCollectionPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C01D59BD80008A8973 /* ELCAssetCollectionPicker.xib */; };
+		5DE2E0E21D59BD80008A8973 /* goods_add_plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C11D59BD80008A8973 /* goods_add_plus@2x.png */; };
+		5DE2E0E31D59BD80008A8973 /* goods_add_plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C21D59BD80008A8973 /* goods_add_plus@3x.png */; };
+		5DE2E0E41D59BD80008A8973 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C31D59BD80008A8973 /* Overlay.png */; };
+		5DE2E0E51D59BD80008A8973 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C41D59BD80008A8973 /* Overlay@2x.png */; };
+		5DE2E0E61D59BD80008A8973 /* JYBMultiImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C71D59BD80008A8973 /* JYBMultiImageView.m */; };
+		5DE2E0E71D59BD80008A8973 /* UIImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0C91D59BD80008A8973 /* UIImageButton.m */; };
+		5DE2E0E81D59BD80008A8973 /* JYBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0CB1D59BD80008A8973 /* JYBBaseViewController.m */; };
+		5DE2E0E91D59BD80008A8973 /* JYBStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0CF1D59BD80008A8973 /* JYBStringHelper.m */; };
+		5DE2E0EA1D59BD80008A8973 /* JYBLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0D21D59BD80008A8973 /* JYBLoading.m */; };
+		5DE2E0EB1D59BD80008A8973 /* JYBLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0D41D59BD80008A8973 /* JYBLoadingIndicator.m */; };
+		5DE2E0EC1D59BD80008A8973 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0D61D59BD80008A8973 /* MBProgressHUD.m */; };
+		5DE2E0ED1D59BD80008A8973 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0D91D59BD80008A8973 /* UIImage+Color.m */; };
+		5DE2E0EE1D59BD80008A8973 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2E0DB1D59BD80008A8973 /* UIView+Ext.m */; };
+		5DE2E0F01D59C346008A8973 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE2E0EF1D59C346008A8973 /* Default-568h@2x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +60,43 @@
 		414459B11CD4843965F405CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F4F4917E987C0DB8784E5DD /* Pods-MultiImageSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiImageSelector_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiImageSelector_Example/Pods-MultiImageSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B4AE93A61320248E4FB70EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5DE2E0B41D59BD80008A8973 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		5DE2E0B51D59BD80008A8973 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		5DE2E0B61D59BD80008A8973 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		5DE2E0B71D59BD80008A8973 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		5DE2E0B81D59BD80008A8973 /* ELCAssetCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCollectionCell.h; sourceTree = "<group>"; };
+		5DE2E0B91D59BD80008A8973 /* ELCAssetCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCollectionCell.m; sourceTree = "<group>"; };
+		5DE2E0BA1D59BD80008A8973 /* ELCAssetCollectionPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCollectionPicker.h; sourceTree = "<group>"; };
+		5DE2E0BB1D59BD80008A8973 /* ELCAssetCollectionPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCollectionPicker.m; sourceTree = "<group>"; };
+		5DE2E0BC1D59BD80008A8973 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		5DE2E0BD1D59BD80008A8973 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		5DE2E0BE1D59BD80008A8973 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		5DE2E0C01D59BD80008A8973 /* ELCAssetCollectionPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetCollectionPicker.xib; sourceTree = "<group>"; };
+		5DE2E0C11D59BD80008A8973 /* goods_add_plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goods_add_plus@2x.png"; sourceTree = "<group>"; };
+		5DE2E0C21D59BD80008A8973 /* goods_add_plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goods_add_plus@3x.png"; sourceTree = "<group>"; };
+		5DE2E0C31D59BD80008A8973 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		5DE2E0C41D59BD80008A8973 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		5DE2E0C61D59BD80008A8973 /* JYBMultiImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBMultiImageView.h; sourceTree = "<group>"; };
+		5DE2E0C71D59BD80008A8973 /* JYBMultiImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBMultiImageView.m; sourceTree = "<group>"; };
+		5DE2E0C81D59BD80008A8973 /* UIImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageButton.h; sourceTree = "<group>"; };
+		5DE2E0C91D59BD80008A8973 /* UIImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageButton.m; sourceTree = "<group>"; };
+		5DE2E0CA1D59BD80008A8973 /* JYBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBBaseViewController.h; sourceTree = "<group>"; };
+		5DE2E0CB1D59BD80008A8973 /* JYBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBBaseViewController.m; sourceTree = "<group>"; };
+		5DE2E0CC1D59BD80008A8973 /* JYBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBMacros.h; sourceTree = "<group>"; };
+		5DE2E0CD1D59BD80008A8973 /* JYBMultiImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBMultiImageSelector.h; sourceTree = "<group>"; };
+		5DE2E0CE1D59BD80008A8973 /* JYBStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBStringHelper.h; sourceTree = "<group>"; };
+		5DE2E0CF1D59BD80008A8973 /* JYBStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBStringHelper.m; sourceTree = "<group>"; };
+		5DE2E0D11D59BD80008A8973 /* JYBLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBLoading.h; sourceTree = "<group>"; };
+		5DE2E0D21D59BD80008A8973 /* JYBLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBLoading.m; sourceTree = "<group>"; };
+		5DE2E0D31D59BD80008A8973 /* JYBLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBLoadingIndicator.h; sourceTree = "<group>"; };
+		5DE2E0D41D59BD80008A8973 /* JYBLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBLoadingIndicator.m; sourceTree = "<group>"; };
+		5DE2E0D51D59BD80008A8973 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5DE2E0D61D59BD80008A8973 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5DE2E0D81D59BD80008A8973 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		5DE2E0D91D59BD80008A8973 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		5DE2E0DA1D59BD80008A8973 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		5DE2E0DB1D59BD80008A8973 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		5DE2E0EF1D59C346008A8973 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MultiImageSelector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiImageSelector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,6 +161,89 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5DE2E0B21D59BD80008A8973 /* JYBMultiImageSelector */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2E0B31D59BD80008A8973 /* ELCImagePicker */,
+				5DE2E0C51D59BD80008A8973 /* ImagesSelectorView */,
+				5DE2E0CA1D59BD80008A8973 /* JYBBaseViewController.h */,
+				5DE2E0CB1D59BD80008A8973 /* JYBBaseViewController.m */,
+				5DE2E0CC1D59BD80008A8973 /* JYBMacros.h */,
+				5DE2E0CD1D59BD80008A8973 /* JYBMultiImageSelector.h */,
+				5DE2E0CE1D59BD80008A8973 /* JYBStringHelper.h */,
+				5DE2E0CF1D59BD80008A8973 /* JYBStringHelper.m */,
+				5DE2E0D01D59BD80008A8973 /* MBProgressHUD */,
+				5DE2E0D71D59BD80008A8973 /* UIKit+Helper */,
+			);
+			path = JYBMultiImageSelector;
+			sourceTree = "<group>";
+		};
+		5DE2E0B31D59BD80008A8973 /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2E0B41D59BD80008A8973 /* ELCAlbumPickerController.h */,
+				5DE2E0B51D59BD80008A8973 /* ELCAlbumPickerController.m */,
+				5DE2E0B61D59BD80008A8973 /* ELCAsset.h */,
+				5DE2E0B71D59BD80008A8973 /* ELCAsset.m */,
+				5DE2E0B81D59BD80008A8973 /* ELCAssetCollectionCell.h */,
+				5DE2E0B91D59BD80008A8973 /* ELCAssetCollectionCell.m */,
+				5DE2E0BA1D59BD80008A8973 /* ELCAssetCollectionPicker.h */,
+				5DE2E0BB1D59BD80008A8973 /* ELCAssetCollectionPicker.m */,
+				5DE2E0BC1D59BD80008A8973 /* ELCAssetSelectionDelegate.h */,
+				5DE2E0BD1D59BD80008A8973 /* ELCImagePickerController.h */,
+				5DE2E0BE1D59BD80008A8973 /* ELCImagePickerController.m */,
+				5DE2E0BF1D59BD80008A8973 /* Resources */,
+			);
+			path = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		5DE2E0BF1D59BD80008A8973 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2E0C01D59BD80008A8973 /* ELCAssetCollectionPicker.xib */,
+				5DE2E0C11D59BD80008A8973 /* goods_add_plus@2x.png */,
+				5DE2E0C21D59BD80008A8973 /* goods_add_plus@3x.png */,
+				5DE2E0C31D59BD80008A8973 /* Overlay.png */,
+				5DE2E0C41D59BD80008A8973 /* Overlay@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DE2E0C51D59BD80008A8973 /* ImagesSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2E0C61D59BD80008A8973 /* JYBMultiImageView.h */,
+				5DE2E0C71D59BD80008A8973 /* JYBMultiImageView.m */,
+				5DE2E0C81D59BD80008A8973 /* UIImageButton.h */,
+				5DE2E0C91D59BD80008A8973 /* UIImageButton.m */,
+			);
+			path = ImagesSelectorView;
+			sourceTree = "<group>";
+		};
+		5DE2E0D01D59BD80008A8973 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2E0D11D59BD80008A8973 /* JYBLoading.h */,
+				5DE2E0D21D59BD80008A8973 /* JYBLoading.m */,
+				5DE2E0D31D59BD80008A8973 /* JYBLoadingIndicator.h */,
+				5DE2E0D41D59BD80008A8973 /* JYBLoadingIndicator.m */,
+				5DE2E0D51D59BD80008A8973 /* MBProgressHUD.h */,
+				5DE2E0D61D59BD80008A8973 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5DE2E0D71D59BD80008A8973 /* UIKit+Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5DE2E0D81D59BD80008A8973 /* UIImage+Color.h */,
+				5DE2E0D91D59BD80008A8973 /* UIImage+Color.m */,
+				5DE2E0DA1D59BD80008A8973 /* UIView+Ext.h */,
+				5DE2E0DB1D59BD80008A8973 /* UIView+Ext.m */,
+			);
+			path = "UIKit+Helper";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +281,7 @@
 		6003F593195388D20070C39A /* Example for MultiImageSelector */ = {
 			isa = PBXGroup;
 			children = (
+				5DE2E0B21D59BD80008A8973 /* JYBMultiImageSelector */,
 				6003F59C195388D20070C39A /* CYXAppDelegate.h */,
 				6003F59D195388D20070C39A /* CYXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -156,6 +297,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DE2E0EF1D59C346008A8973 /* Default-568h@2x.png */,
 				6003F595195388D20070C39A /* MultiImageSelector-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -278,7 +420,13 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				5DE2E0F01D59C346008A8973 /* Default-568h@2x.png in Resources */,
+				5DE2E0E41D59BD80008A8973 /* Overlay.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				5DE2E0E21D59BD80008A8973 /* goods_add_plus@2x.png in Resources */,
+				5DE2E0E51D59BD80008A8973 /* Overlay@2x.png in Resources */,
+				5DE2E0E31D59BD80008A8973 /* goods_add_plus@3x.png in Resources */,
+				5DE2E0E11D59BD80008A8973 /* ELCAssetCollectionPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +538,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE2E0DC1D59BD80008A8973 /* ELCAlbumPickerController.m in Sources */,
 				6003F59E195388D20070C39A /* CYXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CYXViewController.m in Sources */,
+				5DE2E0E71D59BD80008A8973 /* UIImageButton.m in Sources */,
+				5DE2E0EB1D59BD80008A8973 /* JYBLoadingIndicator.m in Sources */,
+				5DE2E0ED1D59BD80008A8973 /* UIImage+Color.m in Sources */,
+				5DE2E0DF1D59BD80008A8973 /* ELCAssetCollectionPicker.m in Sources */,
+				5DE2E0E81D59BD80008A8973 /* JYBBaseViewController.m in Sources */,
+				5DE2E0EC1D59BD80008A8973 /* MBProgressHUD.m in Sources */,
+				5DE2E0DE1D59BD80008A8973 /* ELCAssetCollectionCell.m in Sources */,
+				5DE2E0DD1D59BD80008A8973 /* ELCAsset.m in Sources */,
+				5DE2E0E91D59BD80008A8973 /* JYBStringHelper.m in Sources */,
+				5DE2E0EA1D59BD80008A8973 /* JYBLoading.m in Sources */,
+				5DE2E0EE1D59BD80008A8973 /* UIView+Ext.m in Sources */,
+				5DE2E0E01D59BD80008A8973 /* ELCImagePickerController.m in Sources */,
+				5DE2E0E61D59BD80008A8973 /* JYBMultiImageView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,10 +674,10 @@
 			baseConfigurationReference = 0C63F3CD9C5F710FA34EFF36 /* Pods-MultiImageSelector_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultiImageSelector/MultiImageSelector-Prefix.pch";
 				INFOPLIST_FILE = "MultiImageSelector/MultiImageSelector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,10 +690,10 @@
 			baseConfigurationReference = 4F4F4917E987C0DB8784E5DD /* Pods-MultiImageSelector_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultiImageSelector/MultiImageSelector-Prefix.pch";
 				INFOPLIST_FILE = "MultiImageSelector/MultiImageSelector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
