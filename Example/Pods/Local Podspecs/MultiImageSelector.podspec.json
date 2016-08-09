@@ -1,0 +1,22 @@
+{
+  "name": "MultiImageSelector",
+  "version": "0.1.0",
+  "summary": "A short description of MultiImageSelector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MultiImageSelector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CYFly": "chengyixiang@sogou-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MultiImageSelector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MultiImageSelector/Classes/**/*"
+}

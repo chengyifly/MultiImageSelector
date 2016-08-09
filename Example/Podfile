@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MultiImageSelector_Example' do
+  pod 'MultiImageSelector', :path => '../'
+
+  target 'MultiImageSelector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

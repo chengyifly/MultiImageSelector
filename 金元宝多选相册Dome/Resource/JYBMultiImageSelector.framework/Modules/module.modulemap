@@ -1,6 +1,0 @@
-framework module JYBMultiImageSelector {
-  umbrella header "JYBMultiImageSelector.h"
-
-  export *
-  module * { export * }
-}

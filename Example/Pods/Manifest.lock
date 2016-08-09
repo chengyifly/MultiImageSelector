@@ -1,0 +1,16 @@
+PODS:
+  - MultiImageSelector (0.1.0)
+
+DEPENDENCIES:
+  - MultiImageSelector (from `../`)
+
+EXTERNAL SOURCES:
+  MultiImageSelector:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MultiImageSelector: dec9672e12de5781184b29e248014b6e5e646cfd
+
+PODFILE CHECKSUM: a5ff04504b1eae5a3df9b994fc9b0ef1949a4333
+
+COCOAPODS: 1.0.1
